@@ -1,0 +1,36 @@
+{
+  "name": "ipfs-pad",
+  "version": "0.0.1",
+  "description": " A distributed collaborative text editor on IPFS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js  --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nginnever/ipfs-pad.git"
+  },
+  "author": "Nathan Ginnever",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/nginnever/ipfs-pad/issues"
+  },
+  "homepage": "https://github.com/nginnever/ipfs-pad#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.6.0",
+    "mocha": "^2.5.3"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "immutable": "^3.8.1"
+  }
+}
