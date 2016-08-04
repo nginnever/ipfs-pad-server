@@ -1,6 +1,6 @@
 {
   "name": "ipfs-pad",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": " A distributed collaborative text editor on IPFS",
   "main": "index.js",
   "scripts": {
